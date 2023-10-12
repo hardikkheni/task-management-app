@@ -1,7 +1,5 @@
 const request = require('supertest');
 const path = require('path');
-// process.env.MONGO_URI = 'mongodb+srv://hardikkheni:hardikkheni@main.tmfxxrp.mongodb.net/task-management-app?retryWrites=true&w=majority';
-// process.env.JWT_SECRET = 'IAYZX18L0P6AKS4SP5GFX3SWUKG7TK7F';
 
 require('dotenv').config({
   path: path.resolve(process.cwd(), `.env`),
